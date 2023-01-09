@@ -15,32 +15,8 @@ body{
     flex-direction:column ;
 }
 header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     background: #24252A;
-    padding: 30px 10%;
-    margin: 0;
 }
-.logo {
-    cursor: pointer;
-}
-
-.nav__links {
-    list-style: none;
-}
-
-.nav__links li {
-    display: inline-block;
-    padding: 0px 20px;
-}
-
-.nav__links li a:hover{
-    color: #0088a9
-}
-
-.nav__links li a{
-    transition: all 0.3s ease 0s;
 .main{
     display: flex;
     flex: 1;
