@@ -1,48 +1,88 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+* {
+    padding: 0;
     margin: 0px;
     box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    color:white
 }
-body{
+
+body {
     height: 94vh;
     background-color: rgb(189, 186, 186);
-    font-family:sans-serif ;
+    font-family: sans-serif;
     text-align: center;
     color: white;
     font-size: 20px;
     display: flex;
-    flex-direction:column ;
+    flex-direction: column;
 }
-header{
+
+header {
     background: #24252A;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
 }
-.main{
+
+.logo {
+    cursor: pointer;
+}
+
+.nav__links {
+    list-style: none;
+    text-decoration: none;
+}
+
+.nav__links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav__links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+    color: #0088a9
+}
+
+.main {
     display: flex;
     flex: 1;
 }
-.left{
-    background:rgb(189, 186, 186) ;
+
+.left {
+    background: rgb(189, 186, 186);
+    padding: 0em 0 3em 0;
+    flex: 1 1 100px;
+    text-align: left;
+}
+
+main {
+    background: rgb(189, 186, 186);
     padding: 3em 0 3em 0;
-    flex:1 1 100px;
-    text-align:left;
+    flex: 5 5 150px;
 }
-main{
-    background:rgb(189, 186, 186) ;
+
+.right {
+    background: rgb(189, 186, 186);
     padding: 3em 0 3em 0;
-    flex:5 5 150px;
+    flex: 1 1 100px;
 }
-.right{
-    background:rgb(189, 186, 186) ;
-    padding: 3em 0 3em 0;
-    flex:1 1 100px;
+
+footer {
+    background: grey;
 }
-footer{
-    background:grey;
-}
-@media all and (max-width: 500px){
-    .main{
+
+@media all and (max-width: 500px) {
+    .main {
         flex-direction: column;
     }
-    main{
+
+    main {
         padding: 5em 0 5em 0;
     }
 }
