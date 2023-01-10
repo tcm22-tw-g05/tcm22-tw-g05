@@ -56,7 +56,7 @@ header {
 
 .left {
     background: rgb(189, 186, 186);
-    padding: 0em 5% 3em 0;
+    padding: 10em 5% 5% 5%;
     flex: 1 1 100px;
     text-align: left;
 }
@@ -78,6 +78,7 @@ main {
 }
 footer {
     background: grey;
+    text-align: center;
 }
 
 @media all and (max-width: 500px) {
