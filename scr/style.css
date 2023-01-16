@@ -126,13 +126,3 @@ footer {
 .show {
     display: block;
 }
-
-@media all and (max-width: 500px) {
-    .main {
-        flex-direction: column;
-    }
-
-    main {
-        padding: 5em 0 5em 0;
-    }
-}
