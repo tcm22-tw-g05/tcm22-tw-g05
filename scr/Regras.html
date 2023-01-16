@@ -23,13 +23,48 @@
   </header>
   <div class="main">
     <aside class="left">
-      <a href="/scr/História_do_Futebol.html">História do Futebol</a>
-      <br>
-      <a href="/scr/Regras.html">Regras</a>
-      <br>
-      <a href="/scr/Seleção_Nacional.html">Seleção Nacional</a>
-      <br>
-      <a href="/scr/Cristiano_Ronaldo.html">Cristiano Ronaldo</a>
+      <div class="dropdown">
+        <button onclick="myFunction()" class="dropbtn">Regras</button>
+        <div id="myDropdown" class="dropdown-content">
+          <a href="#Terreno">Terreno de jogo</a>
+          <a href="#Bola">Bola</a>
+          <a href="#Jogadores">Jogadores</a>
+          <a href="#Equipamento">Equipamento</a>
+          <a href="#Arbitro1">Árbitro Central</a>
+          <a href="#Arbitro2">Árbitros Assistentes</a>
+          <a href="#Duração">Duração</a>
+          <a href="#ComecoJogo">Começo de jogo</a>
+          <a href="#boladf">Bola em jogo/Fora de Jogo</a>
+          <a href="#ForaJogo">Fora-de-Jogo</a>
+          <a href="#Faltas">Faltas e Incorreções</a>
+          <a href="#Livre">Livre Direto</a>
+          <a href="#Penalti">Penálti</a>
+          <a href="#Marcação">Maração de Golos</a>
+          <a href="#Lancamento">Lançamento Lateral</a>
+          <a href="#Pontape1">Pontapé de baliza</a>
+          <a href="#Pontape2">Pontapé de canto</a>
+        </ids>
+      </div>
+      
+      <script>
+      function myFunction() {
+        document.getElementById("myDropdown").classList.toggle("show");
+      }
+      
+     
+      window.onclick = function(event) {
+        if (!event.target.matches('.dropbtn')) {
+          var dropdowns = document.getElementsByClassName("dropdown-content");
+          var i;
+          for (i = 0; i < dropdowns.length; i++) {
+            var openDropdown = dropdowns[i];
+            if (openDropdown.classList.contains('show')) {
+              openDropdown.classList.remove('show');
+            }
+          }
+        }
+      }
+      </script>
     </aside>
     <main>
       <h2>Regras do Futebol</h2>
@@ -37,27 +72,8 @@
       <p>O futebol foi baseado em 17 regras, as mesmas são definidas pelo Internacional Board (IFAB) entidade que depois
         publica as mesmas num documentos no Laws of the Game (LOTG).</p>
         <br>
-      <p>Desse modo as regras são:</p>
-      <ol type="1" start="1">
-        <li>O terreno de jogo</li>
-        <li>A bola</li>
-        <li>Os jogadores</li>
-        <li>Equipamento dos jogadores</li>
-        <li>O árbitro central</li>
-        <li>Os árbitros assistentes</li>
-        <li>Duração da partida</li>
-        <li>O começo do jogo</li>
-        <li>A bola em jogo e fora de jogo</li>
-        <li>A marcação de golos</li>
-        <li>Fora-de-jogo</li>
-        <li>Faltas e incorreções</li>
-        <li>livre direto</li>
-        <li>O pontapé de grande penalidade</li>
-        <li>O lançamento lateral</li>
-        <li>O pontapé de baliza</li>
-        <li>O pontapé de canto</li>
-      </ol>
       <br>
+      <div class="item" id="Terreno"></div>
       <h3>O terreno de jogo</h3>
       <br>
       <p>Os campos podem ter diferentes tamanhos variando de 120 metros a 90 metros de comprimento e uma largura que
@@ -78,6 +94,7 @@
         Como sabemos o objetico e marcar golo na baliza que tem 7,32 metros e conta com 2,44 m de altura.
       </p>
       <br>
+      <div class="item" id="Bola"></div>
       <h3>A bola</h3>
       <br>
       <p>A bola esta definida com 4 parametros, sendo</p>
@@ -88,6 +105,7 @@
         <li>Ter um peso não superior a 450 g e não inferior a 410 g, no começo da partida.</li>
       </ul>
       <br>
+      <div class="item" id="#Jogadores"></div>
       <h3>Os jogadores</h3>
       <br>
       <p>A partida deve ser jogada por duas equipas formadas por no máximo 11 e no minimo 7 jogadores. Em competições
@@ -98,6 +116,7 @@
         jogador quando o outro sair.
       </p>
       <br>
+      <div class="item" id="#Equimapento"></div>
       <h3>Equipamento dos jogadores</h3>
       <br>
       <p>Relativamente ao equimapento é algo básico os jogadores são proibidos de utilizar qualquer tipo de joias ou
@@ -113,6 +132,7 @@
       </ul>
       </p>
       <br>
+      <div class="item" id="#Arbitro1"></div>
       <h3>O árbitro central</h3>
       <br>
       <p>O árbitro desempenha uma função muitissimo importante sendo esta o controlo do jogo, o memso é a autoridade em
@@ -126,6 +146,7 @@
         o curso de um jogo.
       </p>
       <br>
+      <div class="item" id="#Arbitro2"></div>
       <h3>Os árbitros assistentes</h3>
       <br>
       <p>os árbitros assistentes servem mais para auxiliar o árbitro principal, os mesmos são utilizados em algunas
@@ -143,6 +164,7 @@
       </ul>
       </p>
       <br>
+      <div class="item" id="#Duração"></div>
       <h3>Duração da partida</h3>
       <br>
       <p>Em um jogo de futebol não muito a saber relativamente ao tempo sendo este de 90min no total dividido em duas
@@ -151,13 +173,15 @@
         tempo
         de compensação. </p>
       <br>
+      <div class="item" id="#ComecoJogo"></div>
       <h3>O começo do jogo</h3>
       <br>
       <p>Antes de começar o jogo o que acontece é e a escolha do campo, este metodo é feito com uma moeda no meio do
         campo,
         a equipa que ganhar decide para que lado quer atacar na primeira parte, a outra equipa dá o pontapé de saida. Na
         segunda parte estes papeis são revertidos e as equipas trocam o lado dos campos. </p>
-      <h3>A bola em jogo e fora de jogo</h3>
+        <div class="item" id="#boladf"></div>
+        <h3>A bola em jogo e fora de jogo</h3>
       <p>A bola está fora de jogo quando:
       <ul>
         <li>Estiver fora das linhas laterias ou de fundo</li>
@@ -171,6 +195,7 @@
       </ul>
       </p>
       <br>
+      <div class="item" id="#ForaJogo"></div>
       <h3>Fora-de-jogo</h3>
       <br>
       <p>O fora de jogo é talvez a falta mais cometida no futebol porque não há um jogo em que não seja ssinalado um
@@ -183,6 +208,7 @@
         se o jogador receber a bola de um pontapé de baliza.
       </p>
       <br>
+      <div class="item" id="#Faltas"></div>
       <h3>Faltas e incorreções</h3>
       <br>
       <p>As faltas são muitas vezes sancionadas e há 3 formas de as categorizar sendo:
@@ -199,6 +225,7 @@
         Contudo pode ser aplicado um vermelho direto no caso de ser uma falta mais seria.
       </p>
       <br>
+      <div class="item" id="#Livre"></div>
       <h3>Livre direto</h3>
       <br>
       <p>Os livres funcionam da mesma forma, a bola deve estar completamente parada e só pode ser tocada por quem vai
@@ -206,6 +233,7 @@
         o livre.
       </p>
       <br>
+      <div class="item" id="#Penalti"></div>
       <h3>Penálti</h3>
       <br>
       <p>O penálti surge quando há uma falta dentro da grande área, assim sendo bola deve colocada na linhas dos 11
@@ -217,6 +245,7 @@
         para o lane ser cobrado.
       </p>
       <br>
+      <div class="item" id="#Lancamento"></div>
       <h3>O lançamento lateral</h3>
       <br>
       <p>O lançamento lateral acontece quando a bola sai pelas linhas laterais dessa forma o jogador dirige-se para fora
@@ -228,6 +257,7 @@
         laterias.
       </p>
       <br>
+      <div class="item" id="#Pontape1"></div>
       <h3>O pontapé de baliza</h3>
       <br>
       <p>O pontapé de baliza,funciona como um repositor de bola em jogo, isto acontece quando a bola sai pela linha de
@@ -236,6 +266,7 @@
         frente e quando há um pontapé de baliza nenhum jogador pode intreferir, apenas o guarda redes.
       </p>
       <br>
+      <div class="item" id="#Pontape2"></div>
       <h3>O pontapé de canto</h3>
       <br>
       <p>O pontapé de canto funciona como um pontapé de baliza mas conta com um pequeno detalhe, assim como num pontapé
