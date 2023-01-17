@@ -83,6 +83,13 @@ main {
     flex: 1 1 100px;
 }
 
+.xml{
+    align-content: center;
+    text-align: center;
+}
+.xml a:hover{
+    color:#0088a9;
+}
 .centro{
     text-align: center;
     align-content: center;
