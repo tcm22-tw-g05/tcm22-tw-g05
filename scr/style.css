@@ -94,7 +94,20 @@ main {
     text-align: center;
     align-content: center;
     font-size: medium;
-    color: #24252A;
+}
+.centro tbody {
+    background-color: lightgrey ;
+}
+.centro tfoot {
+    background-color: lightgrey ;
+}
+.centro thead{
+    background-color: #24252A;;
+    font-weight: bolder;
+}
+
+.centro table{
+    background-color: #24252A;
 }
 
 *{
