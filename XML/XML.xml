@@ -1,0 +1,244 @@
+<xml>
+<contexto>Este site foi desenvolvido para a cadeira de Tecnologias da comunicação multimédia a
+    pedido do docente Marco Oliveira, como avaliação de final de semestre. A avaliação consiste em
+    criar uma página relativamente a um desporto, o desporto escolhido por nós foi o futebol, o
+    nosso site vai funcionar como uma lista e como uma cronologia, onde vamos apresentar algumas das
+    regras, a história do futebol, depois decimos falar só da Seleção Nacional e por fim fizemos uma
+    zona onde falamos de Cristiano Ronaldo. Dessa forma vamos de algo muito amplo a algo mais
+    concreto.</contexto>
+
+<historia>No livro Descriptio Nobilissimae Civitatis Londadinae, escrito em 1175, foi feito o
+    primeiro registro de um desporto semelhante ao futebol. Nesta obra é citado que os ingleses,
+    durante a Schrovetide, saíam à rua e chutavam uma bola de couro para comemorar a expulsão dos
+    dinamarqueses. A bola simbolizava a cabeça de um invasor.
+    Por muitos anos o futebol era apenas uma celebração dos ingleses, mas com o passar dos tempos o
+    desporto foi ficando cada vez mais popular. Já no século XVI, a violencia do jogo era tanta que
+    era comum os jogadores ficarem com pernas partidas, roupas rasgadas ou dentes arrancados. Houve
+    também assassinatos devido às rivalidades entre os jogadores. A partir do século XVIII a
+    violencia foi proibida nos jogos de futebol. O desporto foi mudando e começou a ser adotado
+    pelas escolas como uma modalidade para atividade física. Como o desporto era praticado em vários
+    países as regras também foram mudande consoante o país. Duas regras de diferentes colégios
+    ganharam destaque na época: um jogo só com o uso dos pés, e o outro com o uso dos pés e das
+    mãos. Criaram-se, assim, o football e o rugby, em 1846.
+</historia>
+
+<Regras>
+    <TerrenoDeJogo>Os campos podem ter diferentes tamanhos variando de 120 metros a 90 metros de
+        comprimento e uma largura que varia entre 90 metros e 45 metros.
+        Contudo em partidas internacionais o tamanho passa para valores entre 110 mentros e 100
+        metros de comprimento e vai entre 75 mentros a 64 metros no que toca a largura.
+        Os campos são marcados por diversas linhas sendo as linhas laterais e as linhas de fundo que
+        devem ter 12 cm de largura e nos 4 cantos deve haver uma bandeira com 1,50 m de altura.
+        Para além disso temos as duas áreas onde temos a pequena área delimitada por duas linhas
+        perpendiculares à linha de fundo, estas linhas sáo tracçadas a 5,50m de cada poste e entra
+        5,50m no campo. A pequena área está dentro da grande área a mesma está a 16,50m de distância
+        dos postes e entra 16,50 m dentros de campo. Entre a pequena e a grande área temos a linha
+        de penálti que fica a 11m da linha de baliza.
+        Como sabemos o objetico e marcar golo na baliza que tem 7,32 metros e conta com 2,44 m de
+        altura.</TerrenoDeJogo>
+    <ABola> A bola esta definida com 4 parametros, sendo:
+        Ser esférica;
+        Ser de borracha ou outro material duro;
+        Ter uma circunferência não superior a 70 cm e não inferior a 68 cm;
+        Ter um peso não superior a 450 g e não inferior a 410 g, no começo da partida.</ABola>
+    <Jogadores>A partida deve ser jogada por duas equipas formadas por no máximo 11 e no minimo 7
+        jogadores. Em competições oficiais organizadas pela FIFA o máximo de substituições são 5
+        estas substituições são realizadas com a autorização do árbitro, e deve ocorrer sempre fora
+        do campo e devem ser feitas perto da linha de meio campo e só pode entrar o jogador quando o
+        outro sair.
+    </Jogadores>
+    <Equipamento>Relativamente ao equimapento é algo básico os jogadores são proibidos de utilizar
+        qualquer tipo de joias ou objetos que sejam perigosos para eles ou para os restantes
+        jogadores.
+        Dessa forma o equimapento está baseado em cinco partes.
+
+        Camisola- onde o jogador se utilizar uma camisola interior a mesma deve ser da cor do
+        equipamento
+        Calções
+        Meias
+        Caneleiras
+        Chuteiras</Equipamento>
+    <ArbitroCentral> O árbitro desempenha uma função muitissimo importante sendo esta o controlo do
+        jogo, o memso é a autoridade em campo e é ele quem faz com que as regras sejam compridas.
+        O árbitro controlará a partida em cooperação com os árbitros assistentes o mesmo pode
+        interromper, suspender ou finalizar o jogo quando julgar oportuno, no caso de que se cometam
+        infrações às regras de jogo.
+        Apesar de as ações dos arbitros serem definitivas por vezes surgem algumas más
+        intrepertações e o que acontece nos dias de hoje é o acesso ao VAR que surge como um
+        elemento esclarecedor em momentos de grande dúvida. Podendo alterar o curso de um jogo.</ArbitroCentral>
+    <ArbitrosAssistentes>Os árbitros assistentes servem mais para auxiliar o árbitro principal, os
+        mesmos são utilizados em algunas casos muito específicos como por exemplo:
+
+        Quando deve ser assinalado o fora de jogo;
+        Quando é necessário fazer uma substituição;
+        Quando há um falta fora so ângulo de visão do árbitro;
+        Quando a bola sair completamente do campo de jogo
+        A que equipa pertence o lançamento ou se é pontapé de baliza ou de canto;
+        Quando, nos pontapés de grande penalidade, o guarda-redes se adiantar além da linha de
+        baliza antes de a bola ser chutada e se a bola ultrapassar a linha de baliza
+    </ArbitrosAssistentes>
+    <Duracao>Em um jogo de futebol não muito a saber relativamente ao tempo sendo este de 90min no
+        total dividido em duas partes de 45min e têm um intervalo de 15min, contudo após tempo
+        perdido com faltas e etc temos ainda o tão conhecido tempo de compensação.
+
+    </Duracao>
+    <ComecoJogo>Antes de começar o jogo o que acontece é e a escolha do campo, este metodo é feito
+        com uma moeda no meio do campo, a equipa que ganhar decide para que lado quer atacar na
+        primeira parte, a outra equipa dá o pontapé de saida. Na segunda parte estes papeis são
+        revertidos e as equipas trocam o lado dos campos.</ComecoJogo>
+    <BolaDentroForaJogo> A bola está fora de jogo quando:
+
+        Estiver fora das linhas laterias ou de fundo
+        Quando o jogo estiver parado pelo árbitro
+        A bola está em jogo quando:
+
+        Bate nos postes nas traves e também nas bandeirolas que ficam nos cantos do campo
+        Quando bate no árbitro ou no assistente</BolaDentroForaJogo>
+    <ForaDeJogo>A bola está fora de jogo quando:
+
+        Estiver fora das linhas laterias ou de fundo
+        Quando o jogo estiver parado pelo árbitro
+        A bola está em jogo quando:
+
+        Bate nos postes nas traves e também nas bandeirolas que ficam nos cantos do campo
+        Quando bate no árbitro ou no assistente</ForaDeJogo>
+    <FaltasEIncorrecoes> As faltas são muitas vezes sancionadas e há 3 formas de as categorizar
+        sendo:
+
+        Livre direto;
+        Penálti
+        Livre indireto
+        Para além destes 3 casos há também os cartões sendo o amarelo e o vermelho, a atribuição de
+        cartões funciona da seguinte forma no caso de uma agressões, discussões o jogador pode ser
+        punido com um amarelo, contudo se tiver dois amarelos o que origina é a atribuição de um
+        vermelho.
+        Contudo pode ser aplicado um vermelho direto no caso de ser uma falta mais seria.</FaltasEIncorrecoes>
+    <LivreDireto>Os livres funcionam da mesma forma, a bola deve estar completamente parada e só
+        pode ser tocada por quem vai bater o livre.</LivreDireto>
+    <Penalti>O penálti surge quando há uma falta dentro da grande área, assim sendo bola deve
+        colocada na linhas dos 11 metros e todos os jogadores têm que estar atrás da bola e só podem
+        passar a linha da grande área após a bola ser batida, o guarda redes deve estar colocado em
+        cima da linha da baliza, só após este caso e que o árbitro pode dar premissão para o lane
+        ser cobrado.
+    </Penalti>
+    <LancamentoLateral>O lançamento lateral acontece quando a bola sai pelas linhas laterais dessa
+        forma o jogador dirige-se para fora do campo e faz o lançamento com as duas mãos, um detalhe
+        importante é que a bola não pode ser marcada com o lançamento ou seja tem que ir para algum
+        jogador antes.
+        O lançamento deve ser feito ou parado em cima da linha lateral ou então na área exterior e
+        para além das linhas laterias.</LancamentoLateral>
+    <PontapeBaliza>O pontapé de baliza,funciona como um repositor de bola em jogo, isto acontece
+        quando a bola sai pela linha de fundo ou então quando o guarda redes defende a bola e fica
+        com ela nas mãos, dessa forma a bola deve ser batida para a frente e quando há um pontapé de
+        baliza nenhum jogador pode intreferir, apenas o guarda redes.</PontapeBaliza>
+    <PontapeCanto>O pontapé de canto funciona como um pontapé de baliza mas conta com um pequeno
+        detalhe, assim como num pontapé de baliza os cantos são batidos quando a bola sai pela linha
+        de fundo mas desta vez toca no jogador da equipa que está a defender assim como no pontapé
+        de baliza é batido com os pés.</PontapeCanto>
+</Regras>
+
+<Seleção>
+    <Fundação>A Seleção Portuguesa de Futebol, também conhecida como Seleção das Quinas é a equipa
+        nacional de Portugal e representa o país nas competições internacionais de futebol. É gerida
+        pela Federação Portuguesa de Futebol. A mesma estreou-se a 18 de dezembreo de 1921 em um
+        jogo contra a Espanha. A primeira vitória da mesma surge em 1926 contra os Italianos.
+
+    </Fundação>
+    <CompeticoesInternacionais>Em 66, a seleção atinge um grande feito, o alcance das Meias Finais
+        do Mundial da FIFA, terminando em 3º lugar. Apesar de não ter ganho o mesmo, para uma
+        estreia, destacaram-se bastante, tendo também passado da fase de grupos como 1º
+        classificado.
+        Neste mesmo Mundial, um dos maiores destaquesda Seleção Portuguesa foi sem dúvida Eusébio da
+        Silva Ferreira, adquirindo a alcunha de Artilheiro, uma vez que havia marcado 9 golos nessa
+        mesma competição. Portugal chegou pela primeira vez à fase final de um A nível de
+        Campeonatos Europeus em 1984, Portugal atinge as meias finais e perdeu contra o anfitrião do
+        torneio a França.
+        Ao longo de vários anos, Portugal, viu-se incapacitado de marcar presença nas competições
+        internacionais, porém, com o passar dos anos a mesma foi evoluindo e a partir do Séc. XXI a
+        presença em competições europeias passaram a ser recorrentes. O primeiro título da Seleção
+        Portuguesa foi conquistado em 2016, quando os portugueses venceram a final do Campeonato da
+        Europa frente à anfitriã França, após vitória no prolongamento. Três anos depois, os
+        portugueses venceram a primeira edição da Liga das Nações da UEFA, após disputarem a final
+        da competição contra a Holanda no Estádio do Dragão. Até 2016, a sua melhor prestação em
+        grandes torneios havia sido no Euro 2004, competição da qual foi país anfitrião e que perdeu
+        frente à Grécia na final.</CompeticoesInternacionais>
+    <PeriodoEstagnacao>Apesar da exibição notável no mundial de 1966, a Seleção não conseguiu ser
+        consistente, conseguindo qualificar-se para a fase final de uma grande competição apenas 18
+        anos depois. Durante este período a seleção portuguesa acabava por perder quase sempre jogos
+        importantes contra adversários do seu grupo, acabando por ficar fora dos lugares de acesso à
+        fase final. Esta fase viu também muitas figuras importantes da geração dos "magriços", como
+        Eusébio, Coluna e José Águas atingirem a idade da reforma, enquanto que outros, como
+        Fernando Chalana e Rui Jordão começavam a despontar. Apesar disso, Portugal conseguiu chegar
+        à final da Taça Independência, um torneio de 20 equipas organizado em 1972 que assinalou os
+        150 anos da independência do Brasil. Portugal venceu quase todos os jogos em que participou,
+        empatando somente contra o Uruguai, mas na final disputada no estádio do Maracanã, o Brasil
+        levaria a melhor sobre os portugueses, com um golo de Jairzinho aos 89'.</PeriodoEstagnacao>
+</Seleção>
+
+<CR7>
+    <raizes>Cristiano Ronaldo dos Santos Aveiro nasceu em 5 de fevereiro de 1985 na paróquia de São
+        Pedro do Funchal, a capital da ilha portuguesa da Madeira.Ele é o quarto e mais novo filho
+        de Maria Dolores dos Santos Viveiros da Aveiro que era cozinheira e José Dinis Aveiro que
+        era um jardineiro e nos tempos livres era roupeiro do clube onde Ronaldo começou a sua
+        carreira. A vida de Cristiano Ronaldo nunca foi fácil visto que a sua familia vivia na
+        pobreza e para além da pobreza, exisita problemas familiares como por exemplo o alcoolsimo
+        do seu pai. Ronaldo começou por jogar no clube chamado "Andorinha" onde o pai era roupeiro e
+        mais tarde mudou para o "Nacional". Em 1997 com 12 anos, Cristiano Ronaldo ganha a
+        oportunidade da vida e ruma para Portugal continental com o mesmo tem um contrato com o
+        Sporting (SCP).</raizes>
+
+    <SCP>Cristiano Ronaldo dos Santos Aveiro nasceu em 5 de fevereiro de 1985 na paróquia de São
+        Pedro do Funchal, a capital da ilha portuguesa da Madeira.Ele é o quarto e mais novo filho
+        de Maria Dolores dos Santos Viveiros da Aveiro que era cozinheira e José Dinis Aveiro que
+        era um jardineiro e nos tempos livres era roupeiro do clube onde Ronaldo começou a sua
+        carreira. A vida de Cristiano Ronaldo nunca foi fácil visto que a sua familia vivia na
+        pobreza e para além da pobreza, exisita problemas familiares como por exemplo o alcoolsimo
+        do seu pai. Ronaldo começou por jogar no clube chamado "Andorinha" onde o pai era roupeiro e
+        mais tarde mudou para o "Nacional". Em 1997 com 12 anos, Cristiano Ronaldo ganha a
+        oportunidade da vida e ruma para Portugal continental com o mesmo tem um contrato com o
+        Sporting (SCP).</SCP>
+
+    <carreira>Cristitano Ronaldo teve uma caminhada por diferentes clubes e diferentes ligas: <CamadaJuvenil>1992-1995-Andorinha
+        (Portugal)
+            1995-1997-Nacional(Portugal)
+            1997-2002-Sporting Clube de Portugal</CamadaJuvenil>
+        <CamadaSenior>2002-2003-Sporting
+        Clube de Portugal B(Portugal)
+            2002-2003-Sporting Clube de Portugal(Portugal)
+            2003-2009-Manchester United(Inglaterra)
+            2009-2018-Real Madrid(Espanha)
+            2018-2021-Juventos(Itália)
+            2021-2022-Manchester United(Inglaterra)
+            2023- Al Nassr(Arrabia)</CamadaSenior>  
+        <NGolosPoreEquipa>Sporting Clube de Portugal- 31
+        Manchester United-346
+            Real Madrid-438
+            Juventos-134
+            Al Nassr- sem números
+            Seleção Nacional-118</NGolosPoreEquipa>    
+        <Titulos>
+            <SCP>Supertaça de Portugal:2002</SCP>
+            <ManchesterUnited>Campeonato do Mundo de Clubes da FIFA: 2008
+                Liga dos Campeões da UEFA: 2007-08
+                Campeonato Inglês: 2006-07, 2007-08, 2008-09
+                Taça da Inglaterra: 2003-04
+                Taça da Liga Inglesa: 2005-06, 2008-09
+                Supertaça da Inglaterra: 2007, 2008</ManchesterUnited>
+            <RealMadrid>Campeonato do Mundo de Clubes da FIFA: 2014, 2016, 2017
+                Liga dos Campeões da UEFA: 2013-14, 2015-16, 2016-17, 2017-18
+                Supertaça da UEFA: 2014, 2016, 2017
+                Campeonato Espanhol: 2011-12, 2016-17
+                Taça do Rei: 2010-11, 2013-14
+                Supertaça da Espanha: 2012, 2017</RealMadrid>
+            <Juventos>Campeonato Italiano: 2018-19, 2019-20
+            Supertaça da Itália: 2018, 2020
+            Copa da Itália: 2020-21
+            </Juventos>
+            <SelecaoNacional>Europeu: 2016
+                UEFA Liga das Nações: 2018</SelecaoNacional>
+            <MelhorJogadorFIFA>2008, 2013, 2014, 2016, 2017</MelhorJogadorFIFA>
+            <BolasOuro>2008, 2013, 2014, 2016, 2017</BolasOuro>
+        </Titulos>
+    </carreira>
+</CR7>
+</xml>
