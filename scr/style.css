@@ -90,6 +90,12 @@ main {
 .xml a:hover{
     color:#0088a9;
 }
+
+.imgc{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 .centro{
     text-align: center;
     align-content: center;
