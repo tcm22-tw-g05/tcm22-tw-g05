@@ -86,6 +86,8 @@ main {
 .centro{
     text-align: center;
     align-content: center;
+    font-size: medium;
+    color: #24252A;
 }
 
 *{
