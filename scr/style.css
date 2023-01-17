@@ -170,7 +170,7 @@ form button{
 }
 
 .dropbtn {
-    background-color: #3498DB;
+    background-color: #24252A;
     color: white;
     padding: 16px;
     font-size: 16px;
@@ -180,7 +180,7 @@ form button{
 
 .dropbtn:hover,
 .dropbtn:focus {
-    background-color: #2980B9;
+    background-color: #24252A;
 }
 
 .dropdown {
