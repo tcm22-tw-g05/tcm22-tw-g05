@@ -6,12 +6,12 @@
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
     text-decoration: none;
-    color: white
+    color: white;
 }
 
 body {
     height: 94vh;
-    background-color: rgb(189, 186, 186);
+    background-color: rgb(134, 133, 133);
     font-family: sans-serif;
     text-align: left;
     color: white;
@@ -26,6 +26,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 30px 10%;
+    text-decoration: none;
 }
 
 .b_retorceder {
@@ -64,21 +65,22 @@ header {
 }
 
 .left {
-    background: rgb(189, 186, 186);
+    background: rgb(134, 133, 133);
     padding: 10em 5% 5% 5%;
     flex: 1 1 100px;
     text-align: left;
 }
 
 main {
-    background: rgb(189, 186, 186);
+    background: rgb(134, 133, 133);
     padding: 3em 0 3em 0;
     flex: 5 5 150px;
     text-align: justify;
+    color: #24252A;
 }
 
 .right {
-    background: rgb(189, 186, 186);
+    background: rgb(134, 133, 133);
     padding: 3em 0 3em 0;
     flex: 1 1 100px;
 }
@@ -91,9 +93,11 @@ main {
 .xml a:hover {
     color: #0088a9;
 }
-.redirecionarismai a:visited{
-    color:#175781;
+
+.redirecionarismai a:visited {
+    color: #175781;
 }
+
 .imgc {
     display: block;
     margin-left: auto;
@@ -101,28 +105,20 @@ main {
 }
 
 .centro {
-    border: #24252A;
+    border: black;
     width: 400;
     height: 300;
     text-align: center;
     align-content: center;
     font-size: medium;
 }
-.centro2 {
-    border: #24252A;
-    width: 400;
-    height: 300;
-    text-align: center;
-    align-content: center;
-    font-size:larger;
-}
 
 .centro tbody {
-    background-color: lightgrey;
+    background-color: rgb(134, 133, 133);
 }
 
 .centro tfoot {
-    background-color: lightgrey;
+    background-color: rgb(134, 133, 133);
 }
 
 .centro thead {
@@ -132,7 +128,7 @@ main {
 }
 
 .centro table {
-    background-color: #24252A;
+    background-color: black;
 }
 
 .image {
