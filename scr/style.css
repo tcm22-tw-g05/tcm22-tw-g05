@@ -83,57 +83,67 @@ main {
     flex: 1 1 100px;
 }
 
-.xml{
+.xml {
     align-content: center;
     text-align: center;
 }
-.xml a:hover{
-    color:#0088a9;
+
+.xml a:hover {
+    color: #0088a9;
 }
 
+<<<<<<< HEAD
 .imgc{
     float:center;
+=======
+.imgc {
+>>>>>>> 0f0d7160ffd3bb4fefbc3467c8e8c90f4ed2bae0
     display: block;
-  margin-left: auto;
-  margin-right: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
-.centro{
+
+.centro {
     text-align: center;
     align-content: center;
     font-size: medium;
 }
+
 .centro tbody {
-    background-color: lightgrey ;
+    background-color: lightgrey;
 }
+
 .centro tfoot {
-    background-color: lightgrey ;
+    background-color: lightgrey;
 }
-.centro thead{
-    background-color: #24252A;;
+
+.centro thead {
+    background-color: #24252A;
+    ;
     font-weight: bolder;
 }
 
-.centro table{
+.centro table {
     background-color: #24252A;
 }
 
-.image{
+.image {
     position: relative;
     width: 600px;
 }
 
-.image__img{
+.image__img {
     display: block;
-    width:100%;
+    width: 100%;
 }
 
-.image__overlay{
+.image__overlay {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-color:rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.6);
     color: white;
     display: flex;
     flex-direction: column;
@@ -143,26 +153,28 @@ main {
     transition: opacity 0.25s;
 }
 
-.image__overlay:hover{
+.image__overlay:hover {
     opacity: 1;
 }
 
-.img__title{
+.img__title {
     font-size: 2em;
     font-weight: bold;
 }
 
-.image__description{
+.image__description {
     font-size: 1.25em;
     margin-top: 0.25em;
 }
-*{
+
+* {
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
 }
-.footer{
+
+.footer {
     margin-top: 150px;
     width: 100%;
     padding: 30px 15%;
@@ -170,24 +182,29 @@ main {
     color: #efefef;
     display: flex;
 }
-.footer div{
+
+.footer div {
     text-align: center;
 }
-.col-2{
+
+.col-2 {
     flex-grow: 2;
 }
-.footer div h3{
+
+.footer div h3 {
     font-weight: 300;
     margin-bottom: 30px;
     letter-spacing: 1px;
 }
-.col-1 a{
+
+.col-1 a {
     display: block;
     text-decoration: none;
     color: #efefef;
     margin-bottom: 10px-;
 }
-form input{
+
+form input {
     width: 400px;
     height: 45px;
     border-radius: 4px;
@@ -197,7 +214,8 @@ form input{
     outline: none;
     border: none;
 }
-form button{
+
+form button {
     background: transparent;
     border: 2px solid #efefef;
     color: #efefef;
@@ -206,11 +224,13 @@ form button{
     font-size: 15px;
     cursor: pointer;
 }
-.social-icons{
+
+.social-icons {
     margin-top: 30px;
 }
-.social-icons i{
-    font:size 22px;
+
+.social-icons i {
+    font: size 22px;
     margin: 10px;
     cursor: pointer;
 }
