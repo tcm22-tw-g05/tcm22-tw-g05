@@ -91,7 +91,9 @@ main {
 .xml a:hover {
     color: #0088a9;
 }
-
+.redirecionarismai a:visited{
+    color:#175781;
+}
 .imgc {
     display: block;
     margin-left: auto;
