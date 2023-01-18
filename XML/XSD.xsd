@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created with Liquid Technologies Online Tools 1.0 (https://www.liquid-technologies.com) -->
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="xml">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="contexto" type="xs:string" />
+        <xs:element name="historia" type="xs:string" />
+        <xs:element name="Regras">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="TerrenoDeJogo" type="xs:string" />
+              <xs:element name="ABola" type="xs:string" />
+              <xs:element name="Jogadores" type="xs:string" />
+              <xs:element name="Equipamento" type="xs:string" />
+              <xs:element name="ArbitroCentral" type="xs:string" />
+              <xs:element name="ArbitrosAssistentes" type="xs:string" />
+              <xs:element name="Duracao" type="xs:string" />
+              <xs:element name="ComecoJogo" type="xs:string" />
+              <xs:element name="BolaDentroForaJogo" type="xs:string" />
+              <xs:element name="ForaDeJogo" type="xs:string" />
+              <xs:element name="FaltasEIncorrecoes" type="xs:string" />
+              <xs:element name="LivreDireto" type="xs:string" />
+              <xs:element name="Penalti" type="xs:string" />
+              <xs:element name="LancamentoLateral" type="xs:string" />
+              <xs:element name="PontapeBaliza" type="xs:string" />
+              <xs:element name="PontapeCanto" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Seleção">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Fundação" type="xs:string" />
+              <xs:element name="CompeticoesInternacionais" type="xs:string" />
+              <xs:element name="PeriodoEstagnacao" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="CR7">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="raizes" type="xs:string" />
+              <xs:element name="SCP" type="xs:string" />
+              <xs:element name="carreira">
+                <xs:complexType mixed="true">
+                  <xs:sequence>
+                    <xs:element name="CamadaJuvenil" type="xs:string" />
+                    <xs:element name="CamadaSenior" type="xs:string" />
+                    <xs:element name="NGolosPoreEquipa" type="xs:string" />
+                    <xs:element name="Titulos">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="SCP" type="xs:string" />
+                          <xs:element name="ManchesterUnited" type="xs:string" />
+                          <xs:element name="RealMadrid" type="xs:string" />
+                          <xs:element name="Juventos" type="xs:string" />
+                          <xs:element name="SelecaoNacional" type="xs:string" />
+                          <xs:element name="MelhorJogadorFIFA" type="xs:string" />
+                          <xs:element name="BolasOuro" type="xs:string" />
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
