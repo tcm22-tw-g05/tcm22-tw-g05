@@ -101,13 +101,20 @@ main {
 }
 
 .centro {
-    background-color: lightgrey;
     border: #24252A;
     width: 400;
     height: 300;
     text-align: center;
     align-content: center;
     font-size: medium;
+}
+.centro2 {
+    border: #24252A;
+    width: 400;
+    height: 300;
+    text-align: center;
+    align-content: center;
+    font-size:larger;
 }
 
 .centro tbody {
