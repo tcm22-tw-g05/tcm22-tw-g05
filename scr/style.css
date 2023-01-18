@@ -106,8 +106,8 @@ main {
 
 .centro {
     border: black;
-    width: 400;
-    height: 300;
+    width: 400px;
+    height: 300px;
     text-align: center;
     align-content: center;
     font-size: medium;
